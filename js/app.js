@@ -37,7 +37,8 @@ let buildNav = () => {
   sections.forEach((section) => {
     const li = document.createElement("li");
     const link = document.createElement("a");
-    link.href = "#" + section.id;
+    link.dataset.nav = "#" + section.id;
+    link.href = "#";
     link.classList.add("menu__link");
     link.textContent = section.dataset.nav;
     li.appendChild(link);
@@ -63,7 +64,16 @@ let makeSectionActive = () => {
   });
 };
 
-// Scroll to anchor ID using scrollTO event
+// Scroll to Sections Smoothly
+const scrollToSections = () => {
+  ul.addEventListener("click", (e) => {
+    if (e.target.nodeName === "A") {
+      e.preventDefault();
+      const clicked = document.querySelector(e.target.dataset.nav);
+      clicked.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+};
 
 /**
  * End Main Functions
@@ -74,6 +84,6 @@ let makeSectionActive = () => {
 // Build menu
 buildNav();
 // Scroll to section on link click
-
+scrollToSections();
 // Set sections as active
 makeSectionActive();
