@@ -20,3 +20,6 @@
 - Convert this static page to a amazing dynamic page
 - use the new methods that we have learned in course such "querySelectorAll and getElementById"
 - use javascript ES6 new syntax
+
+## Live preview
+https://udacity-javascript-nd-landing-page-fod1c76f0-abdelrazek-alaa.vercel.app/
