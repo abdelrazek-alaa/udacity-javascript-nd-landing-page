@@ -1,13 +1,22 @@
-# Landing Page Project
+# My Landing Page Project
 
-## Table of Contents
+    this is my landing page project readme
 
-* [Instructions](#instructions)
+## Languages used in this project
 
-## Instructions
+-HTML & CSS
+-JavaScript
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Project Features :
 
-To get started, open `js/app.js` and start building out the app's functionality
+- Modern landing page
+- Responsive page (work in all devices)
+- Dynamic Navigation menu
+- scrolling is smooth
+- The active section is dynamic
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## What i learned is :
+
+- Convert this static page to a amazing dynamic page
+- use the new methods that we have learned in course such "querySelectorAll and getElementById"
+- use javascript ES6 new syntax
