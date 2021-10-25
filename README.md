@@ -2,6 +2,8 @@
 
 multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
 
+![](https://github.com/abdelrazek-alaa/udacity-javascript-nd-landing-page/blob/f43e82675242df59bd9f1adf0a9fd5e56cbb5e6d/javascript-nd-landing-page.png)
+
 ## Languages used in this project
 
 -HTML & CSS
